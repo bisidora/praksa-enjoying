@@ -1,0 +1,3 @@
+<app-menu (clickedDog)="onToggleDogClicked($event)"></app-menu>
+<app-dog *ngIf="dog1" [imageSrc]="dog1.message"></app-dog>
+<app-dog *ngIf="dog2" [imageSrc]="dog2.message"></app-dog>

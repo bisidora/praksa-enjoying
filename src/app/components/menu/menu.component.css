@@ -1,0 +1,9 @@
+button {
+  display: inline-block;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  margin-bottom: 35px;
+}
